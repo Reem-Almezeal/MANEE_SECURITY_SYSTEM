@@ -1,0 +1,5 @@
+timestamp,ip,username,event_type,request
+2026-03-08 15:30:01,198.51.100.10,user5,file_download,/downloads/setup.exe
+2026-03-08 15:30:20,198.51.100.10,user5,file_download,/temp/script.bat
+2026-03-08 15:30:40,198.51.100.10,user5,file_download,/bin/library.dll
+2026-03-08 15:31:00,198.51.100.10,user5,file_download,/scripts/run.ps1

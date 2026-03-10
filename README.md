@@ -1,44 +1,77 @@
-# UNIT-PROJECT-1
+# MANEE' Security System
+
+MANEE' Security System is a command-line security tool that analyzes log files, detects suspicious activities, calculates risk levels, and allows security analysts to create incident tickets.
+
+The system simulates a simplified **Security Operations Center (SOC)** workflow for monitoring and responding to security events.
+
+---
+
+## Target Users
+
+- Cybersecurity Analysts
+- SOC Teams
+- Security Engineers
+- Startups
+
+---
+
+## User Stories
+
+- As a security analyst, I want to analyze log files to detect suspicious activities.
+- As a security analyst, I want the system to detect common attacks automatically.
+- As a security analyst, I want to generate a report after analyzing logs.
+- As a security analyst, I want to create tickets for detected incidents.
+
+- As a system administrator, I want to view all created tickets so that I can monitor security incidents.
+- As a system administrator**, I want to update ticket status so that incidents can be tracked until they are resolved.
+- As a system administrator**, I want a dashboard overview so that I can quickly understand the security situation.
 
 
-## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following minimum requirements :
+---
 
-- Must be interactive on CLI.
-- Use your coding skills in Python accurately.
-- Organize Your Code into modules & (or packages)
-- Use git & Github to track changes in your code.
+## Features
 
-## Example Project :  An online Grocery Store :
+- User authentication (Admin / Employee)
+- Log file analysis
+- Security threat detection
+- Risk score and threat level calculation
+- Security report generation
+- Ticket management system
+- Admin dashboard
 
-#### Overview : An online store that sells fruits to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
+---
 
-### Features & User Stories
-#### As a customer I should be able to do the following :
-- Browse  Products . 
-- View the product info (summary, specs, price, quantity , etc.)
-- Search for Products.
-- Get recommendations for my next purchase based on my purchase history.
-- Add Products to the shopping cart .
-- Remove a product from the shopping cart.
-- List the products in my shopping cart. 
-- Continue to checkout . 
-- Fill in my address for delivery.
-- Get receipt of my purchases.
-- Check delivery status . 
+## Log File Requirements
+
+The system only accepts **CSV log files** with the following structure:
+
+timestamp, ip, event_type, username, request, command, file
 
 
-
-#### Usage :
- Explain to the user how to use your project . 
- for example:
- - type in search product_name to search for a product.
- - type in list_products to show all the products in the grocery.
- - type in show product_name to get information about this product.
- - type in buy product_name to buy the product . 
- - and so on...
+Example:
+timestamp,ip,event_type,username,request,command,file
+2025-03-01 10:00:00,192.168.1.10,login_failed,admin,POST /login,,
+2025-03-01 10:05:00,192.168.1.20,sql_query,user1,SELECT * FROM users WHERE '1'='1',,
 
 
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
+---
 
-### NOTE: before submitting the final project, please do the following command:
-`pip freeze > requirements.txt` to enable use to know & use the packages used in your project.
+## Detected Attacks
+
+The system detects several types of threats:
+
+- Brute Force Attack
+- SQL Injection
+- Suspicious PowerShell Activity
+- Malicious File Download
+- Suspicious RDP Activity
+
+---
+
+## Environment Variables
+
+Configuration is stored in a `.env` file:
+
+USERS_FILE=data/users.json
+TICKETS_FILE=data/tickets.json
+REPORT_FOLDER=reports

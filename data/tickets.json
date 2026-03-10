@@ -1,0 +1,90 @@
+[
+    {
+        "ticket_id": 1,
+        "title": "b",
+        "description": "b",
+        "created_by": "reem@company.com",
+        "status": "Closed"
+    },
+    {
+        "ticket_id": 2,
+        "title": "test",
+        "description": "this is test",
+        "created_by": "rashed@manee.com",
+        "status": "Open"
+    },
+    {
+        "ticket_id": 3,
+        "title": "test",
+        "description": "...",
+        "created_by": "noura@manee.com",
+        "status": "Open",
+        "report_path": "reports\\security_report_Rashesd_2026-03-09_10-14-16.txt",
+        "risk_score": 5,
+        "threat_level": "hight"
+    },
+    {
+        "ticket_id": 4,
+        "title": "test2",
+        "description": "....",
+        "created_by": "noura@manee.com",
+        "status": "Open"
+    },
+    {
+        "ticket_id": 5,
+        "title": "sql",
+        "description": "..",
+        "created_by": "rashed@manee.com",
+        "status": "Open",
+        "severity": "Critical",
+        "recommendation": "..",
+        "report_path": "c:\\Users\\reemk\\Downloads\\PRIJECTS\\MANEE_SECURITY_SYSTEM\\reports\\security_report_Rashesd_2026-03-09_11-46-18.txt",
+        "risk_score": 145,
+        "threat_level": "Critical"
+    },
+    {
+        "ticket_id": 8,
+        "title": "test",
+        "description": "test",
+        "created_by": "rashed@manee.com",
+        "status": "Open",
+        "severity": "Critical",
+        "recommendation": "test",
+        "report_path": "c:\\Users\\reemk\\Downloads\\PRIJECTS\\MANEE_SECURITY_SYSTEM\\reports\\security_report_Rashesd_2026-03-09_23-03-59.txt",
+        "risk_score": 75,
+        "threat_level": "Critical"
+    },
+    {
+        "ticket_id": 9,
+        "title": "test",
+        "description": "test",
+        "created_by": "rashed@manee.com",
+        "severity": "low",
+        "recommendation": "...",
+        "status": "Open"
+    },
+    {
+        "ticket_id": 10,
+        "title": "sql",
+        "description": "..",
+        "created_by": "rashed@manee.com",
+        "status": "Open",
+        "severity": "Low",
+        "recommendation": "..",
+        "report_path": "reports\\security_report.txt",
+        "risk_score": 99,
+        "threat_level": "Low"
+    },
+    {
+        "ticket_id": 11,
+        "title": "report",
+        "description": "..",
+        "created_by": "rashed@manee.com",
+        "status": "Open",
+        "severity": "\u001b[32mLow",
+        "recommendation": "..",
+        "report_path": "c:\\Users\\reemk\\Downloads\\PRIJECTS\\MANEE_SECURITY_SYSTEM\\reports\\security_report_Rashesd_2026-03-10_02-54-14.txt",
+        "risk_score": 0,
+        "threat_level": "\u001b[32mLow"
+    }
+]

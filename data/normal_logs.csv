@@ -1,0 +1,6 @@
+timestamp,ip,username,event_type,request
+2026-03-08 09:00:01,192.168.1.10,reem,login_success,/login
+2026-03-08 09:02:15,192.168.1.11,ahmed,view_dashboard,/dashboard
+2026-03-08 09:05:20,192.168.1.12,sara,file_access,/documents/report.pdf
+2026-03-08 09:10:10,192.168.1.10,reem,logout,/logout
+2026-03-08 09:12:45,192.168.1.13,khaled,web_request,GET /home

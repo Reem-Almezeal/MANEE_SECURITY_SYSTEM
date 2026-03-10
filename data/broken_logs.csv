@@ -1,0 +1,4 @@
+timestamp,ip,event_type
+2026-03-08 11:00:00,192.168.1.10,login_failed
+2026-03-08 11:01:00,10.0.0.5,rdp_login
+2026-03-08 11:02:00,172.16.0.8,file_download

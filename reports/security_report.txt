@@ -1,0 +1,20 @@
+========== Security Analysis Report ==========
+
+Total Logs: 5
+
+Top IPs:
+- 192.168.1.10: 2
+- 192.168.1.11: 1
+- 192.168.1.12: 1
+
+Top Events:
+- login_success: 1
+- view_dashboard: 1
+- file_access: 1
+
+Detected Alerts:
+No suspicious activity detected.
+
+Risk Assessment:
+Risk Score: 0
+Threat Level: Low

@@ -1,0 +1,9 @@
+timestamp,ip,event_type,username,request,command,file
+2025-03-01 10:00:00,192.168.1.10,login_failed,admin,POST /login,,
+2025-03-01 10:00:02,192.168.1.10,login_failed,admin,POST /login,,
+2025-03-01 10:00:04,192.168.1.10,login_failed,admin,POST /login,,
+2025-03-01 10:00:06,192.168.1.10,login_failed,admin,POST /login,,
+2025-03-01 10:00:08,192.168.1.10,login_failed,admin,POST /login,,
+2025-03-01 10:05:00,192.168.1.20,sql_query,guest,SELECT * FROM users WHERE '1'='1',,
+2025-03-01 10:07:00,192.168.1.40,powershell,system,,powershell -encodedcommand aW52b2tl,
+2025-03-01 10:08:00,192.168.1.50,file_download,user1,, ,malware.exe

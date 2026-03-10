@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "user_name":"Reem",
+        "email": "admin@manee.com",
+        "password": "admin@123",
+        "role": "admin"
+    },
+    {
+        "id": 2,
+        "user_name":"Rashesd",
+        "email": "rashed@manee.com",
+        "password": "rashed@123",
+        "role": "employee"
+    },
+    {
+        "id": 3,
+        "user_name":"Noura",
+        "email": "noura@manee.com",
+        "password": "noura@123",
+        "role": "employee"
+    }
+]
