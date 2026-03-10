@@ -12,6 +12,7 @@ The system simulates a simplified **Security Operations Center (SOC)** workflow 
 - SOC Teams
 - Security Engineers
 - Startups
+- Cybersecurity Management Department
 
 ---
 
